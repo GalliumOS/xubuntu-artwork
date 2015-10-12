@@ -1,3 +1,28 @@
+xubuntu-artwork (15.04.10) vivid-galliumos; urgency=medium
+
+  * Modified logos and default wall
+  * Added more wallpapers
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 12 Oct 2015 19:59:44 -0400
+
+xubuntu-artwork (15.04.9) vivid-galliumos; urgency=medium
+
+  * Modified logos and default wall
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 21 Sep 2015 19:59:44 -0400
+
+xubuntu-artwork (15.04.8) vivid-galliumos; urgency=medium
+
+  * Modified plymouth theme
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 04 Sep 2015 19:59:44 -0400
+
+xubuntu-artwork (15.04.7) vivid-galliumos; urgency=medium
+
+  * Added GalliumOS logo for the menu
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 04 Sep 2015 19:59:44 -0400
+
 xubuntu-artwork (15.04.6) vivid-galliumos; urgency=medium
 
   * Added default GalliumOS wallpaper
