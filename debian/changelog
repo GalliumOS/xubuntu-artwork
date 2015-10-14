@@ -1,3 +1,15 @@
+xubuntu-artwork (15.04.13) vivid-galliumos; urgency=medium
+
+  * Modified plymouth theme
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 12 Oct 2015 19:59:44 -0400
+
+xubuntu-artwork (15.04.11) vivid-galliumos; urgency=medium
+
+  * Modified logos
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 12 Oct 2015 19:59:44 -0400
+
 xubuntu-artwork (15.04.10) vivid-galliumos; urgency=medium
 
   * Modified logos and default wall
