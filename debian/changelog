@@ -1,3 +1,27 @@
+xubuntu-artwork (15.04.17) vivid-galliumos; urgency=medium
+
+  * Restored previous galliumos artwork
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Sun, 08 Nov 2015 19:59:44 -0400
+
+xubuntu-artwork (15.04.16) vivid-galliumos; urgency=medium
+
+  * Removed galliumos-default.jpg and symlinked it to galliumos-wall2.jpg
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Sun, 08 Nov 2015 19:59:44 -0400
+
+xubuntu-artwork (15.04.15) vivid-galliumos; urgency=medium
+
+  * Updated logo and plymouth theme to use Jonas Bergmeier's design
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Sat, 07 Nov 2015 19:59:44 -0400
+
+xubuntu-artwork (15.04.14) vivid-galliumos; urgency=medium
+
+  * Modified logo
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 16 Oct 2015 19:59:44 -0400
+
 xubuntu-artwork (15.04.13) vivid-galliumos; urgency=medium
 
   * Modified plymouth theme
