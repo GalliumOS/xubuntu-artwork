@@ -1,3 +1,9 @@
+xubuntu-artwork (15.04.4-galliumos1) vivid-galliumos; urgency=medium
+
+  * Added galliumos-wall3.png
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 17 Dec 2015 19:59:44 -0400
+
 xubuntu-artwork (15.04.18) vivid-galliumos; urgency=medium
 
   * Restored logo with transparent center
