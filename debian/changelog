@@ -1,3 +1,9 @@
+xubuntu-artwork (15.04.4-0galliumos1) vivid-galliumos; urgency=medium
+
+  * Set package version to match provenance
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 10 Jan 2016 21:05:33 +0000
+
 xubuntu-artwork (15.04.4-galliumos1) vivid-galliumos; urgency=medium
 
   * Added galliumos-wall3.png
