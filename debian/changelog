@@ -1,93 +1,121 @@
-xubuntu-artwork (15.04.4-0galliumos1) vivid-galliumos; urgency=medium
+xubuntu-artwork (16.04.1-galliumos1) xenial; urgency=medium
 
-  * Set package version to match provenance
+  * Added GalliumOS artwork
 
- -- reynhout <reynhout@galliumos.org>  Sun, 10 Jan 2016 21:05:33 +0000
+ -- Sean Davis <hugh@galliumos.org>  Fri, 25 Mar 2016 19:40:26 -0400
 
-xubuntu-artwork (15.04.4-galliumos1) vivid-galliumos; urgency=medium
+xubuntu-artwork (16.04.1) xenial; urgency=medium
 
-  * Added galliumos-wall3.png
+  * Include new mimetype icons (LP: #1557803)
 
- -- Hugh Greenberg <hugh@galliumos.org>  Thu, 17 Dec 2015 19:59:44 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 15 Mar 2016 19:40:26 -0400
 
-xubuntu-artwork (15.04.18) vivid-galliumos; urgency=medium
+xubuntu-artwork (16.04.0) xenial; urgency=medium
 
-  * Restored logo with transparent center
+  * Correct typos in changelog
+  * Bump version to 16.04.0
 
- -- Hugh Greenberg <hugh@galliumos.org>  Sun, 08 Nov 2015 19:59:44 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 10 Mar 2016 05:12:50 -0500
 
-xubuntu-artwork (15.04.17) vivid-galliumos; urgency=medium
+xubuntu-artwork (15.12.3) xenial; urgency=medium
 
-  * Restored previous galliumos artwork
+  [ Pasi Lallinaho ]
+  * Change the selection color background for a darker one in
+    the Xubuntu light themes (LP: #1508192)
+    - usr/share/gtksourceview-2.0/styles/xubuntu-light.xml
+    - usr/share/xfce4/terminal/colorschemes/xubuntu-light.theme
+  * New wallpaper for Xubuntu 16.04
+    - debian/xubuntu-wallpapers.links
+    - usr/share/plymouth/themes/xubuntu-logo/wallpaper.png
+    - usr/share/xfce4/backdrops/xubuntu-xenial.png
 
- -- Hugh Greenberg <hugh@galliumos.org>  Sun, 08 Nov 2015 19:59:44 -0400
+  [ Sean Davis ]
+  * Dropped libreoffice-style-elementary from package,
+    now packaged from the libreoffice source package.
+    - debian/control
+    - debian/copyright
+    - debian/libreoffice-style-elementary.install
+    - libreoffice-style-elementary
+    - Makefile
 
-xubuntu-artwork (15.04.16) vivid-galliumos; urgency=medium
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 09 Mar 2016 20:53:44 -0500
 
-  * Removed galliumos-default.jpg and symlinked it to galliumos-wall2.jpg
+xubuntu-artwork (15.12.2) xenial; urgency=medium
 
- -- Hugh Greenberg <hugh@galliumos.org>  Sun, 08 Nov 2015 19:59:44 -0400
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for xenial
 
-xubuntu-artwork (15.04.15) vivid-galliumos; urgency=medium
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 22 Dec 2015 05:58:34 -0500
 
-  * Updated logo and plymouth theme to use Jonas Bergmeier's design
+xubuntu-artwork (15.12.1) xenial; urgency=medium
 
- -- Hugh Greenberg <hugh@galliumos.org>  Sat, 07 Nov 2015 19:59:44 -0400
+  * Transition with new plymouth from /usr/share to /lib:
+    - replace /lib instances by /usr/share
+    - move lib/plymouth to usr/share/plymouth
+    - breaks against older plymouth.
+    - ensure we can transition the alternatives to the new version
 
-xubuntu-artwork (15.04.14) vivid-galliumos; urgency=medium
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 09 Dec 2015 08:38:24 +0100
 
-  * Modified logo
+xubuntu-artwork (15.10.5) wily; urgency=medium
 
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 16 Oct 2015 19:59:44 -0400
+  * usr/share/icons/*
+    - Update elementary-xfce from git shapshot (2015-09-10)
 
-xubuntu-artwork (15.04.13) vivid-galliumos; urgency=medium
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 10 Sep 2015 06:43:40 -0400
 
-  * Modified plymouth theme
+xubuntu-artwork (15.10.4) wily; urgency=medium
 
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 12 Oct 2015 19:59:44 -0400
+  [ Pasi Lallinaho ]
+  * New wallpaper for 15.10
 
-xubuntu-artwork (15.04.11) vivid-galliumos; urgency=medium
+  [ Sean Davis ]
+  * usr/share/icons/*
+    - Update icons to elementary-xfce 0.7
 
-  * Modified logos
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Sep 2015 17:40:19 -0400
 
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 12 Oct 2015 19:59:44 -0400
+xubuntu-artwork (15.10.3) wily; urgency=medium
 
-xubuntu-artwork (15.04.10) vivid-galliumos; urgency=medium
+  * Update libreoffice-style-elementary to 0.2
 
-  * Modified logos and default wall
-  * Added more wallpapers
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 20 Aug 2015 18:41:17 -0400
 
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 12 Oct 2015 19:59:44 -0400
+xubuntu-artwork (15.10.2) wily; urgency=medium
 
-xubuntu-artwork (15.04.9) vivid-galliumos; urgency=medium
+  * debian/control:
+    - Add Provides: libreoffice-style for
+      libreoffice-style-elementary package
 
-  * Modified logos and default wall
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 08 Aug 2015 22:58:42 -0400
 
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 21 Sep 2015 19:59:44 -0400
+xubuntu-artwork (15.10.1) wily; urgency=medium
 
-xubuntu-artwork (15.04.8) vivid-galliumos; urgency=medium
+  * Makefile
+  * debian/control
+  * debian/libreoffice-style-elementary.install
+  * libreoffice-style-elementary/*
+    - Install new LibreOffice elementary theme
+  * debian/copyright
+    - Update copyrights to include libreoffice-style-elementary
+      and clean up lintian warnings
+  * usr/share/icons/*
+    - Update icons to elementary-xfce 0.6
 
-  * Modified plymouth theme
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 28 Jul 2015 06:14:40 -0400
 
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 04 Sep 2015 19:59:44 -0400
+xubuntu-artwork (15.10.0) wily; urgency=medium
 
-xubuntu-artwork (15.04.7) vivid-galliumos; urgency=medium
+  [ Unit 193 ]
+  * Bump plymouth-text version number for wily
 
-  * Added GalliumOS logo for the menu
+  [ Sean Davis ]
+  * debian/xubuntu-wallpapers.links
+    - Link to development wallpaper
 
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 04 Sep 2015 19:59:44 -0400
-
-xubuntu-artwork (15.04.6) vivid-galliumos; urgency=medium
-
-  * Added default GalliumOS wallpaper
-
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 04 Sep 2015 19:59:44 -0400
-
-xubuntu-artwork (15.04.5) vivid-galliumos; urgency=medium
-
-  * Synced latest icons from upstream
-
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 04 Sep 2015 19:59:44 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 28 May 2015 22:55:41 -0400
 
 xubuntu-artwork (15.04.4) vivid; urgency=medium
 
