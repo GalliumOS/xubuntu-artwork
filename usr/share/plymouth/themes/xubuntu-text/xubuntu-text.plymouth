@@ -1,10 +1,10 @@
 [Plymouth Theme]
-Name=GalliumOS Text
-Description=Text mode theme based on galliumos-logo theme
+Name=Xubuntu Text
+Description=Text mode theme based on xubuntu-logo theme
 ModuleName=ubuntu-text
 
 [ubuntu-text]
-title=GalliumOS 1.0
+title=Xubuntu 18.04
 black=0x000000
 white=0xffffff
 brown=0x000000
