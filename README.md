@@ -1,2 +1,0 @@
-# xubuntu-artwork
-Xubuntu artwork
